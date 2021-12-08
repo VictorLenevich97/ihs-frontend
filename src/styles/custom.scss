@@ -1,0 +1,101 @@
+$primary: #4f7752 !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1360px,
+  xl: 1960px,
+) !default;
+
+$customBlack: #4f7752;
+
+$navbar-padding-x: 1rem;
+$navbar-padding-y: 0;
+$navbar-light-color: $customBlack !default;
+$navbar-light-hover-color: rgba($customBlack, 1) !default;
+$navbar-light-active-color: rgba($customBlack, 0.9) !default;
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-weight-normal: 500;
+
+$border-radius: 5px;
+
+$input-btn-padding-y: 0.5rem !default;
+$input-btn-padding-x: 1rem !default;
+
+$input-color: $primary;
+$input-placeholder-color: $primary;
+$input-border-width: 2px;
+$input-border-color: $primary;
+$input-border-radius: 10px;
+$input-btn-line-height: 1.7;
+$border-radius-lg: 0.7rem;
+
+$table-th-font-weight: 600;
+
+$pagination-border-color: $primary;
+$pagination-border-width: 2px;
+
+/* Import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.control-dots {
+  width: auto !important;
+  bottom: -5px !important;
+  right: 16px;
+}
+
+.dropdown-menu {
+  padding-top: 25px;
+  border-radius: 10px;
+  right: 0;
+  left: auto;
+
+  &::before {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #4f7752;
+    left: 50%;
+    top: 10px;
+  }
+
+  @media (max-width: 1200px) {
+    padding-top: 5px;
+    right: 0;
+    left: 0;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+// Custom pagination active element
+
+.page-item.active .page-link {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Custom react-select
+
+.css-1okebmr-indicatorSeparator {
+  background-color: transparent !important;
+}
+
+.dottedBackground {
+  background: url('../static/images/dotted-bg--gray.png') repeat;
+  padding: 10px 70px;
+}

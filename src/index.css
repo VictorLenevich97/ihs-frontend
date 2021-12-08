@@ -1,0 +1,16 @@
+@import 'styles/fonts.css';
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin: 0 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
