@@ -1,4 +1,4 @@
-<h1 align="center">Сайт ВА РБ 👋</h1>
+<h1 align="center">👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="null" target="_blank">
@@ -6,9 +6,7 @@
   </a>
 </p>
 
-> Информационный портал ВА РБ
-
-### 🏠 [Homepage](http://ihs.rit)
+### 🏠 [Homepage](null)
 
 ### ✨ [Demo](null)
 
@@ -38,4 +36,4 @@ yarn build
 
 ## Author
 
-👤 **Information technology squad**
+👤 **Victor Lenevich**
